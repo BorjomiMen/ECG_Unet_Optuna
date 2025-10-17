@@ -485,5 +485,6 @@ for channel in all_channels:
         expected_samples=expected_samples,
         classes_config=classes_config
     )
+    #Визуализация результатов
     visualize_results(model, test_dataset, channel, num_samples=5)
     ''''lr': 0.0008074737865207043, 'weight_decay': 0.00018498948148672935, 'dropout_rate': 0.10390800133578551, 'batch_size': 4}'''
